@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+  <!-- Required for iOS to treat this like an app -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+  <!-- Makes the iOS Safari status bar black or dark -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  <!-- Tells some browsers (including Chrome for Android) the theme color -->
+  <meta name="theme-color" content="#000000" />
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
+  <!-- Tells iOS Safari that site supports dark color schemes -->
+  <meta name="color-scheme" content="dark light" />
+
+  <style>
+    html, body {
+      background-color: #000000;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
   <base href="/">
 
   <meta charset="UTF-8">
