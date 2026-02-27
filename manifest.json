@@ -1,11 +1,11 @@
 {
-    "name": "Radio Meteor Player",
-    "short_name": "Radio Meteor Player",
+    "name": "radio_meteor_player",
+    "short_name": "radio_meteor_player",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Player Radia Meteor na twoim urządzeniu!",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
