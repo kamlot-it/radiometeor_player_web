@@ -50,7 +50,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "efebd35c",
+    "git-widget-placeholder": "0560ff30",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Kamlot/AndroidStudioProjects/RM_player_web/build/web",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -106,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780738975988</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Small tweaks on icon caching and in manifest">
+      <option name="closed" value="true" />
+      <created>1780739472270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780739472270</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
