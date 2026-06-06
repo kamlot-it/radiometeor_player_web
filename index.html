@@ -37,8 +37,66 @@
 
   <title>Radio Meteor Player</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="preload" href="assets/fonts/MaterialIcons-Regular.otf" as="font" type="font/otf" crossorigin>
+
+  <script>
+    // Flutter web aggressively caches generated assets (including the
+    // tree-shaken Material Icons font). If an older service worker keeps a
+    // stale or partial font, Material Icon glyphs can render blank until a
+    // manual hard refresh. Before booting Flutter, drop those stale font
+    // entries and warm the current icon font through the network cache.
+    (function () {
+      const materialIconAssets = [
+        'assets/FontManifest.json',
+        'assets/fonts/MaterialIcons-Regular.otf',
+      ];
+
+      async function deleteStaleIconEntries() {
+        if (!('caches' in window)) {
+          return;
+        }
+
+        const cacheNames = await caches.keys();
+        await Promise.all(cacheNames.map(async (cacheName) => {
+          const cache = await caches.open(cacheName);
+          const requests = await cache.keys();
+          await Promise.all(requests.map((request) => {
+            const url = new URL(request.url);
+            const isMaterialIconAsset = materialIconAssets.some((assetPath) =>
+              url.pathname.endsWith('/' + assetPath) || url.pathname.endsWith(assetPath)
+            );
+
+            return isMaterialIconAsset ? cache.delete(request) : Promise.resolve(false);
+          }));
+        }));
+      }
+
+      async function warmCurrentIconFont() {
+        await Promise.all(materialIconAssets.map((assetPath) => {
+          const assetUrl = new URL(assetPath, document.baseURI).toString();
+          return fetch(assetUrl, { cache: 'reload' }).catch(() => undefined);
+        }));
+      }
+
+      window.__radioMeteorPrepareFlutterAssets = async function () {
+        await deleteStaleIconEntries();
+        await warmCurrentIconFont();
+      };
+    }());
+  </script>
 </head>
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    (async function () {
+      if (window.__radioMeteorPrepareFlutterAssets) {
+        await window.__radioMeteorPrepareFlutterAssets();
+      }
+
+      const bootstrap = document.createElement('script');
+      bootstrap.src = 'flutter_bootstrap.js';
+      bootstrap.async = true;
+      document.body.appendChild(bootstrap);
+    }());
+  </script>
 </body>
 </html>
