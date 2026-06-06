@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38a7afc8-5914-4964-bf83-0b3174fb6840" name="Changes" comment="Small tweaks on icon caching and in manifest" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kamlot-it&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kamlot-it/radiometeor_player_web&quot;,
+    &quot;accountId&quot;: &quot;47c57ae7-a8d3-405c-a418-c433eede7694&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3AGjSGgOQKrvl7yl89jn27JU7Sf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "efebd35c",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Kamlot/AndroidStudioProjects/RM_player_web/build/web",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38a7afc8-5914-4964-bf83-0b3174fb6840" name="Changes" comment="" />
+      <created>1772225799339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772225799339</updated>
+    </task>
+    <task id="LOCAL-00001" summary="## Summary&#10;&#10;This commit introduces merge of core radio player functionality and integrates it with the schedule screen. It also improves UI consistency and fixes a few mobile-specific issues.&#10;&#10;### Schedule UI/UX&#10;- Share and cache **cover art** between the player and the schedule screen&#10;- Align the schedule **logo left offset** with the player app bar&#10;- Keep the schedule action icon **touch target** consistent&#10;- Animate the schedule **waveform** with moving bars&#10;- Add a **playback control FAB** (waveform FAB) to the schedule screen&#10;- Add a **schedule header logo** and align the mode switch icons&#10;&#10;### Stability &amp; edge cases&#10;- Fix **mobile overflow** in the About dialog content&#10;- Show the player splash screen **only once per app launch**&#10;- Add a safe **cover placeholder** during fast view switching&#10;&#10;### Theme / styling&#10;- Fix the app theme to use the **orange schedule color scheme**">
+      <option name="closed" value="true" />
+      <created>1772226419078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772226419078</updated>
+    </task>
+    <task id="LOCAL-00002" summary="## Summary&#10;&#10;This commit introduces merge of core radio player functionality and integrates it with the schedule screen. It also improves UI consistency and fixes a few mobile-specific issues.&#10;&#10;### Schedule UI/UX&#10;- Share and cache **cover art** between the player and the schedule screen&#10;- Align the schedule **logo left offset** with the player app bar&#10;- Keep the schedule action icon **touch target** consistent&#10;- Animate the schedule **waveform** with moving bars&#10;- Add a **playback control FAB** (waveform FAB) to the schedule screen&#10;- Add a **schedule header logo** and align the mode switch icons&#10;&#10;### Stability &amp; edge cases&#10;- Fix **mobile overflow** in the About dialog content&#10;- Show the player splash screen **only once per app launch**&#10;- Add a safe **cover placeholder** during fast view switching&#10;&#10;### Theme / styling&#10;- Fix the app theme to use the **orange schedule color scheme**">
+      <option name="closed" value="true" />
+      <created>1772226458485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772226458485</updated>
+    </task>
+    <task id="LOCAL-00003" summary="## Summary&#10;&#10;This commit introduces merge of core radio player functionality and integrates it with the schedule screen. It also improves UI consistency and fixes a few mobile-specific issues.&#10;&#10;### Schedule UI/UX&#10;- Share and cache **cover art** between the player and the schedule screen&#10;- Align the schedule **logo left offset** with the player app bar&#10;- Keep the schedule action icon **touch target** consistent&#10;- Animate the schedule **waveform** with moving bars&#10;- Add a **playback control FAB** (waveform FAB) to the schedule screen&#10;- Add a **schedule header logo** and align the mode switch icons&#10;&#10;### Stability &amp; edge cases&#10;- Fix **mobile overflow** in the About dialog content&#10;- Show the player splash screen **only once per app launch**&#10;- Add a safe **cover placeholder** during fast view switching&#10;&#10;### Theme / styling&#10;- Fix the app theme to use the **orange schedule color scheme**">
+      <option name="closed" value="true" />
+      <created>1772226605455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772226605455</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Small tweaks on icon caching and in manifest">
+      <option name="closed" value="true" />
+      <created>1780738915153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780738915153</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Small tweaks on icon caching and in manifest">
+      <option name="closed" value="true" />
+      <created>1780738975988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780738975988</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="## Summary&#10;&#10;This commit introduces merge of core radio player functionality and integrates it with the schedule screen. It also improves UI consistency and fixes a few mobile-specific issues.&#10;&#10;### Schedule UI/UX&#10;- Share and cache **cover art** between the player and the schedule screen&#10;- Align the schedule **logo left offset** with the player app bar&#10;- Keep the schedule action icon **touch target** consistent&#10;- Animate the schedule **waveform** with moving bars&#10;- Add a **playback control FAB** (waveform FAB) to the schedule screen&#10;- Add a **schedule header logo** and align the mode switch icons&#10;&#10;### Stability &amp; edge cases&#10;- Fix **mobile overflow** in the About dialog content&#10;- Show the player splash screen **only once per app launch**&#10;- Add a safe **cover placeholder** during fast view switching&#10;&#10;### Theme / styling&#10;- Fix the app theme to use the **orange schedule color scheme**" />
+    <MESSAGE value="Small tweaks on icon caching and in manifest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small tweaks on icon caching and in manifest" />
+  </component>
+</project>
