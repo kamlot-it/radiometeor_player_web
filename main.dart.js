@@ -81573,7 +81573,7 @@ s.x=!1},
 $S:0}
 A.ao8.prototype={
 $1(a){var s,r,q=null,p=this.b,o=p.p1,n=o.x
-n=A.bG("Ram\xf3wka Radia Meteor",q,q,n==null?q:n.lw(B.a5),q,q)
+n=A.bG("Player i Ram\xf3wka Radia Meteor",q,q,n==null?q:n.lw(B.a5),q,q)
 o=o.Q
 if(o==null)o=q
 else{s=p.ax
